@@ -1,0 +1,29 @@
+@media all and (min-width: 768px) {
+
+}
+.container-col {
+	display: flex;
+	border-bottom: 1px #ccc solid;
+	flex-direction: column;
+}
+.container-row {
+	display: flex;
+}
+.container-col div{
+    padding:4px;
+}
+.date {
+  	flex: 1;
+  	text-align: right;
+  	flex-basis: auto;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+
+
+
