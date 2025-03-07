@@ -1,4 +1,4 @@
-# Tweet Fetcher
+# Tweets Page
 
 This application fetches and displays tweets using Vue.js.
 
