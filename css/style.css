@@ -1,27 +1,81 @@
-@media all and (max-width: 768px) {
-
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container-col {
+/* Typography */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Main Container */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Tweet Container */
+.tweet-container {
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tweet Header */
+.tweet-header {
   display: flex;
-  border-bottom: 1px #ccc solid;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.container-row {
-  display: flex;
-}
-
-.container-col div {
-  padding: 4px;
-}
-
-.date {
-  flex: 1;
-  text-align: right;
-  flex-basis: auto;
-}
-
-.img-circle {
+.avatar {
   border-radius: 50%;
+}
+
+/* Tweet Content */
+.tweet-content {
+  padding: 0 1rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tweet-header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
 }
