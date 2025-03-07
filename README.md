@@ -51,6 +51,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-Developed by [Your Name](mailto:sohail.cpp@gmail.com)  
+Developed by [Saqib Sohail](mailto:sohail.cpp@gmail.com)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/saqibroy)  
 [![GitHub](https://img.shields.io/badge/GitHub-View-green?logo=github)](https://github.com/saqibroy)
