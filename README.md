@@ -1,6 +1,5 @@
 # Tweets Page
 [![Vue](https://img.shields.io/badge/Vue-3.5.13-4FC08D?logo=vuedotjs)](https://vuejs.org)
-[![Vitest](https://img.shields.io/badge/Vitest-2.1.9-6E9F18?logo=vitest)](https://vitest.dev)
 [![Accessibility](https://img.shields.io/badge/Accessibility-WCAG_AA-ED6C47)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 This application fetches and displays tweets using Vue.js.
